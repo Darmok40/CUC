@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    
+	<ImageView
+        android:src="@drawable/grass"
+        android:layout_width="match_parent"
+    	android:layout_height="150dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:gravity="top"/>
+    
+    <TextView
+        android:text="Cornell University Council Ambassadors"
+        android:background="@android:color/white"        
+    	android:textAppearance="?android:textAppearanceLarge"
+    	android:textColor="#E53935"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      	android:layout_weight="1"
+        android:gravity="center"
+    	android:textStyle="bold"/>
+    
+    <Button
+        android:text="Report on your Ambassador Updates "
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#E53935"
+        android:gravity="center"
+        />
+    
+    <TextView
+        android:text=" "        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    
+    
+       
+</LinearLayout>
