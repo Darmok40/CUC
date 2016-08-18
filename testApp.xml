@@ -16,23 +16,28 @@
     
     <TextView
         android:text="Cornell University Council Ambassadors"
-        android:background="@android:color/white"        
-    	android:textAppearance="?android:textAppearanceLarge"
-    	android:textColor="#E53935"
+        android:textColor="#E53935"
+        android:textAppearance="?android:textAppearanceLarge"             
+    	android:textStyle="bold"    	
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-      	android:layout_weight="1"
+        android:layout_weight="1"
+        android:background="@android:color/white"   
         android:gravity="center"
-    	android:textStyle="bold"/>
+    	
+        />
     
     <Button
         android:text="Report on your Ambassador Updates "
         android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
         android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_width="225dp"
+        android:layout_height="60dp"        
         android:background="#E53935"
         android:gravity="center"
+        android:layout_centerHorizontal="true"
+      
         />
     
     <TextView
@@ -42,6 +47,3 @@
         android:layout_weight="1"
         />
     
-    
-       
-</LinearLayout>
